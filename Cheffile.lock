@@ -1,0 +1,88 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    dmg (2.2.0)
+    homebrew (1.5.4)
+
+GIT
+  remote: https://github.com/pivotal-sprout/sprout
+  path: osx
+  ref: master
+  sha: 13741b29c0447d257e43955b6c65368332e1c9a0
+  specs:
+    osx (0.1.0)
+
+GIT
+  remote: https://github.com/pivotal-sprout/sprout
+  path: sprout-osx-apps
+  ref: master
+  sha: 13741b29c0447d257e43955b6c65368332e1c9a0
+  specs:
+    sprout-osx-apps (0.1.0)
+      dmg (>= 0.0.0)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
+
+GIT
+  remote: https://github.com/pivotal-sprout/sprout-base
+  ref: master
+  sha: e2649562c9ca53944d80380b1d95beb9c61df60e
+  specs:
+    sprout-base (0.1.0)
+
+GIT
+  remote: https://github.com/pivotal-sprout/sprout-git
+  ref: master
+  sha: b2bfc3a7c5e98d3ac8d35f956017e658f3741192
+  specs:
+    sprout-git (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
+  remote: https://github.com/pivotal-sprout/sprout-homebrew
+  ref: master
+  sha: efbbef1a49d764436763c4d91bbd2b5dfcedf227
+  specs:
+    sprout-homebrew (0.1.0)
+      homebrew (~> 1.5.4)
+
+GIT
+  remote: https://github.com/pivotal-sprout/sprout-osx-settings
+  ref: master
+  sha: 342fa674efa39034d37e9ada83d9c18b46a772e8
+  specs:
+    sprout-osx-settings (0.1.0)
+      homebrew (>= 0.0.0)
+      osx (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
+  remote: https://github.com/pivotal-sprout/sprout-rubymine
+  ref: master
+  sha: 4db34901eb9358a80bfc05e3c9d9baf8525a0b40
+  specs:
+    sprout-rubymine (0.1.0)
+      sprout-base (>= 0.0.0)
+      sprout-homebrew (>= 0.0.0)
+
+GIT
+  remote: https://github.com/pivotal-sprout/sprout-ssh
+  ref: master
+  sha: 157fffbc948ceecb1ae7caa5ff3732137a628589
+  specs:
+    sprout-ssh (0.1.0)
+      sprout-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
+
+DEPENDENCIES
+  osx (>= 0)
+  sprout-base (>= 0)
+  sprout-git (>= 0)
+  sprout-homebrew (>= 0)
+  sprout-osx-apps (>= 0)
+  sprout-osx-settings (>= 0)
+  sprout-rubymine (>= 0)
+  sprout-ssh (>= 0)
+

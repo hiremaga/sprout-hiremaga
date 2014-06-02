@@ -1,0 +1,54 @@
+recipes:
+- sprout-base
+- sprout-base::bash_it
+- sprout-base::workspace_directory
+- sprout-homebrew
+- sprout-osx-settings
+- sprout-osx-settings::dock_preferences
+- sprout-osx-apps::iterm2
+- sprout-osx-apps::flycut
+- sprout-osx-apps::shiftit
+- sprout-osx-apps::macvim
+- sprout-git
+- sprout-git::default_editor
+- sprout-git::projects
+- sprout-git::git_scripts
+- sprout-rubymine
+- sprout-ssh::known_hosts_github
+
+node_attributes:
+  sprout:
+    dock_preferences:
+      orientation: 'left'
+      auto_hide: true
+      clear_apps: true
+      tile_size: 35
+      magnification': false
+    git:
+      domain: hiremaga.com
+      authors:
+        - initials: ah
+          name: Abhijit Hiremagalur
+          username: hiremaga
+    homebrew:
+      formulae:
+        - ag
+        - pstree
+        - ssh-copy-id
+        - tmux
+        - tree
+        - watch
+        - wget
+      casks:
+        - dropbox
+        - evernote
+        - google-chrome
+        - google-drive
+        - google-hangouts
+        - intellij-idea-ce
+        - onepassword
+        - rdio
+        - skype
+        - tunnelblick
+        - vagrant
+        - vmware-fusion
