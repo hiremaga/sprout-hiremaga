@@ -4,8 +4,7 @@ cookbook 'sprout-base',
   :github => 'pivotal-sprout/sprout-base'
 
 cookbook 'osx',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'osx'
+  :github => 'pivotal-sprout/osx'
 
 cookbook 'sprout-osx-settings',
   :github => 'pivotal-sprout/sprout-osx-settings'
