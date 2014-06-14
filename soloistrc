@@ -8,7 +8,6 @@ recipes:
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::flycut
 - sprout-osx-apps::shiftit
-- sprout-osx-apps::macvim
 - sprout-git
 - sprout-git::default_editor
 - sprout-git::projects
@@ -46,9 +45,11 @@ node_attributes:
         - google-drive
         - google-hangouts
         - intellij-idea-ce
+        - macvim
         - onepassword
         - rdio
         - skype
+        - textmate
         - tunnelblick
         - vagrant
         - vmware-fusion
