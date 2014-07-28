@@ -14,6 +14,7 @@ recipes:
 - sprout-git::git_scripts
 - sprout-rubymine
 - sprout-ssh::known_hosts_github
+- sprout-osx-apps::go
 
 node_attributes:
   sprout:
